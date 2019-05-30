@@ -1,13 +1,9 @@
 *** Settings ***
-Library    Selenium2Library  # Library para web
+Resource    ../resource/Resource.robot
 Test Setup    Open Browser
 Test Teardown    Close Browser
 
 *** Variables ***
-# Define-se as variáveis globais
-# Podem ser acessadasem qualquer ponto do teste
-${URL}    http://automationpractice.com/
-${BROWSER}    Chrome
 
 *** Test Case ***
 Test Case 01: Pesquisar Produto Existente

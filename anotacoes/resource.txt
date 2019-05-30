@@ -1,0 +1,10 @@
+Não é um Suite de testes.
+É a implementação das Keywords
+
+# Estrutura básica:
+
+*** Settings ***
+
+*** Variables ***
+
+*** Keywords ***
