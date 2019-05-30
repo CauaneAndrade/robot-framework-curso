@@ -17,3 +17,4 @@ Close Browser
 
 # # Passo-a-passo
 Acessar a página home
+    Title Should Be    My Store
