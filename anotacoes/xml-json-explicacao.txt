@@ -1,0 +1,14 @@
+Padrões para armazenar e transferir informações
+
+XML
+É uma linguagem para armazenar informações.
+Mais utilizado para dados mais complexos.
+Surgiu com necessidade de guardar informações que fossem mais fáceis de serem compreendidas por humanos e computadores.
+Possui um padrão de formatação.
+
+Referência: 
+https://www.youtube.com/watch?v=9408HdOYhAA
+
+Json - JavaScricpt Object Notation
+É uma derivação do JavaScript.
+Usado para transferência e armazenamento de dados e informações.

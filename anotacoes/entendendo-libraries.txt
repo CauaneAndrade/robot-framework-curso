@@ -1,0 +1,7 @@
+Libraries são um conjunto de Keyword pré-definidas.
+
+# Para visualizar todas as Libraries disponíveis nativamente ou externas providas para o RPA Robot Framework: 
+
+Referências:
++ https://robotframework.org/#libraries
++ https://pypi.org/search/?q=robotframework

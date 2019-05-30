@@ -1,0 +1,36 @@
+==================== SETUP =================================
+
+# Setup é a inicialização do seu teste,
+basicamente podemos dizer que são os pré-requisitos e
+configurações necessárias para que seus testes sejam executados.
+
+- Existem dois tipos de SETUP:
+1. Test Setup:
+Inicializará as configurações para cada Teste.
+
+!LEMBRE-SE!
+Irá executar os comandos sempre antes de iniciar cada teste
+
+2. Suite Setup
+Inicializará as configurações para cada Suite.
+
+!LEMBRE-SE!
+Irá executar os comandos apenas ao iniciar a Suite
+
+
+==================== TEARDOWN =================================
+
+# Teardown é o encerramento do seu teste,
+onde executamos as pós-condições, geralmente ele
+encerra o que o Setup iniciou.
+
+- Existem dois tipos de TEARDOWN:
+1. Test Teardown
+2. Suite Teardown
+
+--> Funcionam iguais ao Setup, porém são executados
+    após um teste ou após uma suite.
+
+referência: 
+https://medium.com/@mayfernandes/season-scripts-ep-02-setup-e-teardown-2fe886100c5b
+

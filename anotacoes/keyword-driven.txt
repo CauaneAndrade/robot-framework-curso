@@ -1,0 +1,28 @@
+Abordagem Keyword-driven
+
+São uma representação da interação em alto nivel(linguagem mais próxima da natural);
+
+Sequências de Keywords formam um caso ou cenário teste;
+
+Os scripts que implementam essas keywords são escritas em linguagem de programação --> Disponibilizados através da Libraries, o automatizador não deve se responsabilizar por implementar os scripts;
+
+É possível criar keywords com scripts programados em Python ou Java;
+
+
+# Exemplos de aplicação:
+Keyword (RobotFramework com SeleniumLibrary):
+    Open Browser    http://exemplo.com/    firefox
+
+Script (Python com Selenium WebDriver):
+    def open_browser(self):
+        self.driver = webdriver.Firefox()
+        self.driver.implicitly_wait(20)
+        self.base_url = "http://exemplo.com/"
+        self.verificationsErrors = []
+        self.accept_next_alert = True
+
+# Vantagens:
+- Fácil leitura e entendimento da ação;
+- Fácil manutenção;
+- Se bem escrita e estruturada, a sequência de Keywords pode se tornar uma documentação;
+- Bom para testadores não técnicos (não precisa preocupar com implementação da linguagem de programação)

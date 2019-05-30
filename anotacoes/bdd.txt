@@ -1,0 +1,22 @@
+# Desenvolvimento orientado por comportamento (BDD - Behaviour Driven Development)
+
+É uma técnica de desenvolvimento ágil.
+
+# Vantagens:
+- Encoraja a colaboração entre desenvolvedores, testadores e setores em um projeto de software;
+
+- Quanto maior o projeto mais difícil é a comunicação, para isso o BDD propõe uma forma eficaz de resolver esss ímpasses;
+
+- Projetos que estão constantemente ou ao longo do tempo sofrendo alterações;
+
+- Documentação dinâmica, documentar é sempre importante para comunicação 
+entre equipes e controle de eficiência, é necessário ter métricas. Porém muitas equipes
+não têm esta prática, frameworks de BDD possibilitam gerar estes documentos com as 
+implementações e alterações feitas  ;
+
+# Para que serve:
+- Focar no comportamento do software;
+
+- Integrar regras de negócio;
+
+- Os testes orientam o desenvolvimento;
