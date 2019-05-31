@@ -1,0 +1,7 @@
+# Exitem dois tipos de xPath:
+- Absoluto:
+Ex: /html/body/div[1]/section/div
+
+- Ralativo:
+Ex: //input[@id='username']
+Estrutura: /tagname[@atribute='Value']

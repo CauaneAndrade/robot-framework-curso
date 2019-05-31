@@ -1,7 +1,7 @@
 *** Settings ***
 Resource    ../resource/Resource.robot
-Test Setup    Open Browser
-Test Teardown    Close Browser
+Test Setup    Abrir Browser
+Test Teardown    Fechar Browser
 
 *** Variables ***
 
@@ -12,13 +12,13 @@ Test Case 01: Pesquisar Produto Existente
     Pesquisar produto "Blouse"
     Clicar no botão pesquisar
     Conferir produto listado
-    # [Teardown]    parâmetro    # é possível definir um teardown específico para cada teste
+#     # [Teardown]    parâmetro    # é possível definir um teardown específico para cada teste
 
-Test Case 02: Pesquisar Produto não Existente
-    # Usa o Setup e o Teardown padrão, definido no Settings
-    Acessar a página home
-    Pesquisar produto "ItemNãoExistente"
-    Clicar no botão pesquisar
-    Conferir erro "No results were found for your search 'ItemNãoExistente'"
+# Test Case 02: Pesquisar Produto não Existente
+#     # Usa o Setup e o Teardown padrão, definido no Settings
+#     Acessar a página home
+#     Pesquisar produto "ItemNãoExistente"
+#     Clicar no botão pesquisar
+#     Conferir erro "No results were found for your search 'ItemNãoExistente'"
 
-*** Keywords ***
+# *** Keywords ***

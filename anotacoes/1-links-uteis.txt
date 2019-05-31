@@ -1,0 +1,22 @@
+- How to write good test cases:
+https://github.com/robotframework/HowToWriteGoodTestCases/blob/master/HowToWriteGoodTestCases.rst
+
+- Setup and Teardown:
+https://medium.com/@mayfernandes/season-scripts-ep-02-setup-e-teardown-2fe886100c5b
+
+- Libraries:
+https://robotframework.org/#libraries
+https://pypi.org/search/?q=robotframework
+
+- General:
+https://robotizandotestes.blogspot.com/
+https://www.youtube.com/watch?v=9408HdOYhAA
+https://automatetheboringstuff.com/
+
+- BDD e Gherkin:
+http://shipit.resultadosdigitais.com.br/blog/estruturando-seu-projeto-com-bdd-e-cucumber/
+https://docbehat.readthedocs.io/pt/v3.1/guides/1.gherkin.html
+https://martinfowler.com/bliki/BusinessReadableDSL.html
+
+- Locators html
+https://www.swtestacademy.com/xpath-selenium/

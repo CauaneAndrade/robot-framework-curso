@@ -1,0 +1,159 @@
+1559262473908	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yBuW4HrX1aUp"
+1559262475167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559262475167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559262475168	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559262481139	Marionette	INFO	Listening on port 32889
+1559262481236	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+[Child 7111, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-xkwMhH/firefox-67.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+Exiting due to channel error.
+Exiting due to channel error.
+1559262494876	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kgfnkpsodwPu"
+1559262495166	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559262495166	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559262495166	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559262499582	Marionette	INFO	Listening on port 45163
+1559262499595	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:7238): GLib-GObject-WARNING **: 21:28:28.044: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f96749d4ba0' of type 'MaiAtkType139'
+1559262510495	Marionette	INFO	Stopped listening on port 45163
+[Parent 7238, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-xkwMhH/firefox-67.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1559265292906	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KPYt14pF37DZ"
+1559265293195	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559265293195	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559265293195	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559265298527	Marionette	INFO	Listening on port 39929
+1559265298633	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 8783, Gecko_IOThread] WARNING: pipe error (59): Connection reset by peer: file /build/firefox-xkwMhH/firefox-67.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+console.log: "RemoteSettingsWorker error: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code."
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1559265303758	Marionette	INFO	Stopped listening on port 39929
+1559265337122	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ojL19SsglFKC"
+1559265337440	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559265337440	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559265337441	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559265342135	Marionette	INFO	Listening on port 36583
+1559265342147	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:9072): GLib-GObject-WARNING **: 22:15:54.055: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fc7ed6d2b50' of type 'MaiAtkType139'
+1559265356927	Marionette	INFO	Stopped listening on port 36583
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 9072, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-xkwMhH/firefox-67.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 9072, Gecko_IOThread] WARNING: pipe error (98): Connection reset by peer: file /build/firefox-xkwMhH/firefox-67.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1559265474230	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nQy842RS3N3a"
+1559265474526	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559265474526	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559265474526	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559265479532	Marionette	INFO	Listening on port 35631
+1559265479564	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:9497): GLib-GObject-WARNING **: 22:18:07.522: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f10a7402150' of type 'MaiAtkType139'
+1559265489696	Marionette	INFO	Stopped listening on port 35631
+1559265591774	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8sVNRQtDxJG4"
+1559265592084	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559265592084	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559265592084	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559265596690	Marionette	INFO	Listening on port 37063
+1559265596702	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:9858): GLib-GObject-WARNING **: 22:20:04.984: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fb4519e76a0' of type 'MaiAtkType139'
+1559265611934	Marionette	INFO	Stopped listening on port 37063
+[Parent 9858, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-xkwMhH/firefox-67.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1559265637292	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Ud0VmoIp0TgR"
+1559265637596	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559265637596	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559265637597	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559265643378	Marionette	INFO	Listening on port 36847
+1559265643415	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:10142): GLib-GObject-WARNING **: 22:20:52.723: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f263ce4bf60' of type 'MaiAtkType139'
+1559265659615	Marionette	INFO	Stopped listening on port 36847
+[Parent 10142, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-xkwMhH/firefox-67.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1559265706388	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2ybHTIyXkiGu"
+1559265706686	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559265706686	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559265706686	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559265711410	Marionette	INFO	Listening on port 39037
+1559265711507	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:10433): GLib-GObject-WARNING **: 22:21:59.920: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fb0d827eab0' of type 'MaiAtkType139'
+1559265731937	Marionette	INFO	Stopped listening on port 39037
+[Parent 10433, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-xkwMhH/firefox-67.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1559265746611	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VN1m5BznPevS"
+1559265746910	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559265746911	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559265746911	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559265752250	Marionette	INFO	Listening on port 46061
+1559265752341	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:10732): GLib-GObject-WARNING **: 22:22:40.550: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fe10482a2e0' of type 'MaiAtkType139'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559260810623%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+1559265792411	Marionette	INFO	Stopped listening on port 46061
+[Parent 10732, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-xkwMhH/firefox-67.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1559265868754	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fAdMEhrz2cME"
+1559265869062	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559265869063	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559265869063	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559265874088	Marionette	INFO	Listening on port 44961
+1559265874182	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:11057): GLib-GObject-WARNING **: 22:24:41.042: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f7d4fddb8d0' of type 'MaiAtkType139'
+1559265882830	Marionette	INFO	Stopped listening on port 44961
+console.log: "RemoteSettingsWorker error: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code."
+1559265978122	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NNvkJ3dms7BM"
+1559265978446	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559265978446	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559265978446	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559265983366	Marionette	INFO	Listening on port 40369
+1559265983441	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:11373): GLib-GObject-WARNING **: 22:26:31.016: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f9d274141a0' of type 'MaiAtkType139'
+1559265992871	Marionette	INFO	Stopped listening on port 40369
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 11373, Gecko_IOThread] WARNING: pipe error (85): Connection reset by peer: file /build/firefox-xkwMhH/firefox-67.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+console.log: "RemoteSettingsWorker error: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code."
+1559266017463	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4nx2sqMsAJvM"
+1559266017766	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559266017766	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559266017766	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559266023258	Marionette	INFO	Listening on port 43013
+1559266023292	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:11677): GLib-GObject-WARNING **: 22:27:10.841: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7fee55258060' of type 'MaiAtkType139'
+1559266032818	Marionette	INFO	Stopped listening on port 43013
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.log: "RemoteSettingsWorker error: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code."
+1559266122650	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.W0aKALgMM8i5"
+1559266122964	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559266122964	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559266122964	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559266128324	Marionette	INFO	Listening on port 44195
+1559266128383	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:11998): GLib-GObject-WARNING **: 22:28:57.153: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x7f37cd1aaf60' of type 'MaiAtkType139'
+1559266139006	Marionette	INFO	Stopped listening on port 44195
+[Parent 11998, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-xkwMhH/firefox-67.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+console.log: "RemoteSettingsWorker error: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code."
