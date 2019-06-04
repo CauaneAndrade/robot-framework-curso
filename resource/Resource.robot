@@ -30,3 +30,8 @@ Conferir produto listado
     Wait Until Element Is Visible    css:html body#search.search.hide-right-column.lang_en div#page div.columns-container div#columns.container div.row div#center_column.center_column.col-xs-12.col-sm-9 h1.page-heading.product-listing    # timeout=30
     Title Should Be    Search - My Store
     Page Should Contain Image    xPath:/html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[1]/div/a[1]/img
+
+Conferir erro "${ALERT_MESSAGE}"
+    Wait Until Element Is Visible    css:html body#search.search.hide-right-column.lang_en div#page div.columns-container div#columns.container div.row div#center_column.center_column.col-xs-12.col-sm-9 h1.page-heading.product-listing
+    Title Should Be    Search - My Store
+    Page Should Contain Element    xPath:/html/body/div/div[2]/div/div[3]/div[2]/p
