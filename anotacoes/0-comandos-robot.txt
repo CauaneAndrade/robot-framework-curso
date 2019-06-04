@@ -1,0 +1,15 @@
+# Para definir as pastas onde o output, log e o report devem estar:
+
+$ robot -d ./nome-da-pasta pasta-do-teste/arquivo.tobot
+
+# Rodar um teste específico:
+
+$ robot -t "NOME-DO-TESTE" diretorio-do-teste/arquivo.robot
+ou
+$ robot -t "NOME-DO-TESTE" diretorio-do-teste
+
+# Passar variáveis rodando o teste --> o que for variável global:
+
+$ robot -v BROWSER:firefox diretorio-do-teste/arquivo.robot
+!!! Foi definido no código de teste que o
+BROWSER seria o Chrome !!!
